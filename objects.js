@@ -3,6 +3,6 @@ var playlist = {
 }
 
 function updatePlaylist(playlist, artist, song){
-   playlist =  Object.assign({}, obj, { [key]: value});
+   playlist =  Object.assign({}, playlist, { [artist]: song});
    return playlist;
 }
